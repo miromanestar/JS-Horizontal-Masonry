@@ -17,7 +17,7 @@ function doMasonry() {
 	$('.masonry-div').attr("style", "");
 
 	var divHeight = $('.masonry').outerHeight();
-	$('.masonry').height(divHeight+400);
+	$('.masonry').height(divHeight+600);
 	console.log(divHeight);
  
  if($(window).width() > 768) {
