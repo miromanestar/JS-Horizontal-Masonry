@@ -11,4 +11,5 @@ That way, the JS is extremely lightweight and doesn't need to perform nearly as 
 
 Support up to three columns. By default, it will organize the divs into 3 columns, and scale down as the screen shrinks. This will need to be modified in both the CSS and JS files to accomodate additional column sizes.
 
-[Some of the CSS critical to this solution came from this guide here](https://tobiasahlin.com/blog/masonry-with-css/)
+[Some of the CSS critical to this solution came from this guide here.](https://tobiasahlin.com/blog/masonry-with-css/)
+
