@@ -41,7 +41,7 @@ body {
   .masonry-div:nth-child(3n)   { order: 3; }
 }
 
-#masonry-div-0 { height: 250px; line-height: 250px; }
+#masonry-div-0 { height: 80px; line-height: 80px; }
 #masonry-div-1 { height: 330px; line-height: 350px; }
 #masonry-div-2 { height: 290px; line-height: 290px; }
 #masonry-div-3 { height: 320px; line-height: 320px; }
