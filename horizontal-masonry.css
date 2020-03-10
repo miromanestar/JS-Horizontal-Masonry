@@ -1,5 +1,7 @@
 body {
   max-width: 71.875rem;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .masonry {
