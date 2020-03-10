@@ -1,6 +1,6 @@
-(function() {
+document.addEventListener("DOMContentLoaded", function() {
   createElements();
-})();
+});
 
 function createElements() {
   for(let i = 0; i < 10; i++) {
