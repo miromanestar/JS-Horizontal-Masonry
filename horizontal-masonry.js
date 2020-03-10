@@ -1,6 +1,5 @@
 jQuery(document).ready(function() {
 	createElements();
-  doMasonry();
 });
 
 $(window).on('resize', function() { doMasonry() });
@@ -10,6 +9,7 @@ function createElements() {
   	let div = $("<div>", { id: "masonry-div-" + i, "class": "masonry-div", "text": (i + 1)});
 	$('.masonry').append(div);	
   }
+  doMasonry();
 }
 
 function doMasonry() {
