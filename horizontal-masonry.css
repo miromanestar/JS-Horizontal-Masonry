@@ -1,9 +1,36 @@
+.masonry {
+  column-gap: 1.5em;
+}
+
+.masonry::before, .masonry::after {
+  content: "";
+  flex-basis: 100%;
+  width: 0;
+  order: 2;
+}
+
 .masonry-div {
-  width: 280px;
-  height: 500px;
-  background-color: orange;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px 0;
+  width: 100%;
+  display: inline-block;
+}
+
+@media only screen and (max-width: 1023px) and (min-width: 769px) {
+  .masonry {
+    column-count: 2;
+  }
+  
+  .masonry-div: nth-child(2n+1) { order: 1; }
+  .masonry-div: nth-child(2n+2) { order: 2; }
+}
+
+@media only screen and (max-width: 768px) {
+  .masonry {
+    column-count: 3;
+  }
+  
+  .masonry-div: nth-child(3n+1) { order: 1; }
+  .masonry-div: nth-child(3n+2) { order: 2; }
+  .masonry-div: nth-child(3n)   { order: 3; }
 }
