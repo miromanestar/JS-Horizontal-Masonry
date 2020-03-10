@@ -3,29 +3,21 @@ jQuery(document).ready(function() {
   doMasonry();
 });
 
+$(window).on('resize', function() { doMasonry() });
+
 function createElements() {
   for(let i = 0; i < 10; i++) {
-    var masonryDiv = document.createElement("div");
-    masonryDiv.setAttribute("class", "masonry-div");
-    masonryDiv.setAttribute("id", "masonry-div-" + i);
-    masonryDiv.innerText = i;
-    document.getElementById("masonry").appendChild(masonryDiv);
+		$('.masonry').append('<div class="masonry-div" id="masonry-div- + ${ i }">${ i }</div>');
   }
 }
 
-jQuery(document).ready(function() {
-	doMasonry();	
-});
-
-$(window).on('resize', function() { doMasonry() });
-
 function doMasonry() {
-$('.masonry').attr("style", "");
-$('.masonry-div').attr("style", "");
-	
- var divHeight = $('.masonry').outerHeight();
- $('.masonry').height(divHeight+400);
- console.log(divHeight);
+	$('.masonry').attr("style", "");
+	$('.masonry-div').attr("style", "");
+
+	var divHeight = $('.masonry').outerHeight();
+	$('.masonry').height(divHeight+400);
+	console.log(divHeight);
  
  if($(window).width() > 768) {
  	 $('.masonry').css({
