@@ -31,7 +31,7 @@ body {
   .masonry-div:nth-child(2n+2) { order: 2; }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (min-width: 1024px) {
   .masonry {
     column-count: 3;
   }
