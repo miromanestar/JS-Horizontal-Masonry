@@ -7,7 +7,7 @@ $(window).on('resize', function() { doMasonry() });
 
 function createElements() {
   for(let i = 0; i < 10; i++) {
-  	let div = $("<div>", { id: "masonry-div-" + i, "class": "masonry-div"});
+  	let div = $("<div>", { id: "masonry-div-" + i, "class": "masonry-div", "text": i});
 	$('.masonry').append(div);	
   }
 }
