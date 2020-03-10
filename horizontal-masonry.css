@@ -21,8 +21,8 @@
     column-count: 2;
   }
   
-  .masonry-div: nth-child(2n+1) { order: 1; }
-  .masonry-div: nth-child(2n+2) { order: 2; }
+  .masonry-div:nth-child(2n+1) { order: 1; }
+  .masonry-div:nth-child(2n+2) { order: 2; }
 }
 
 @media only screen and (max-width: 768px) {
@@ -30,7 +30,7 @@
     column-count: 3;
   }
   
-  .masonry-div: nth-child(3n+1) { order: 1; }
-  .masonry-div: nth-child(3n+2) { order: 2; }
-  .masonry-div: nth-child(3n)   { order: 3; }
+  .masonry-div:nth-child(3n+1) { order: 1; }
+  .masonry-div:nth-child(3n+2) { order: 2; }
+  .masonry-div:nth-child(3n)   { order: 3; }
 }
