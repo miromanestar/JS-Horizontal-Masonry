@@ -1,0 +1,9 @@
+.masonry-div {
+  width: 280px;
+  height: 500px;
+  background-color: orange;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+}
