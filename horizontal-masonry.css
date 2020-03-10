@@ -34,3 +34,14 @@
   .masonry-div:nth-child(3n+2) { order: 2; }
   .masonry-div:nth-child(3n)   { order: 3; }
 }
+
+.masonry-div-0 { height: 250px; }
+.masonry-div-1 { height: 330px; }
+.masonry-div-2 { height: 290px; }
+.masonry-div-3 { height: 678px; }
+.masonry-div-4 { height: 340px; }
+.masonry-div-5 { height: 150px; }
+.masonry-div-6 { height: 440px; }
+.masonry-div-7 { height: 250px; }
+.masonry-div-8 { height: 120px; }
+.masonry-div-9 { height: 280px; }
