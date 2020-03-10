@@ -19,6 +19,7 @@ body {
   width: 100%;
   display: inline-block;
   text-align: center;
+  font-size: 50px;
 }
 
 @media only screen and (max-width: 1023px) and (min-width: 769px) {
