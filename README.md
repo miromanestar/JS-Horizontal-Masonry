@@ -1,5 +1,7 @@
-# JS-Horizontal-Masonry
-An example of a horizontal masonry layout using javascript!
+# jQuery-Horizontal-Masonry
+An example of a horizontal masonry layout using jQuery!
+
+This example utilizes jQuery to make things easier, but everything here can also be done quite easily in vanillaJS!
 
 [Live demo here!](https://miromanestar.github.io/JS-Horizontal-Masonry/)
 
