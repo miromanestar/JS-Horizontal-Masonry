@@ -3,7 +3,7 @@ An example of a horizontal masonry layout using jQuery!
 
 This example utilizes jQuery to make things easier, but everything here can also be done quite easily in vanilla JS!
 
-[Live demo here!](https://miromanestar.github.io/JS-Horizontal-Masonry/)
+[Live demo here!](https://miromanestar.github.io/jQuery-Horizontal-Masonry/)
 
 Essentially allows CSS to find the expected height of the items in a vertical masonry layout, sets that height (Plus an additional buffer to accomodate discrepancies) to the container, and applies some CSS flex rules depending on the window/screen size, including the flexbox order property.
 
