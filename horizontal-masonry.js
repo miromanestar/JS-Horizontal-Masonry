@@ -24,8 +24,7 @@ function doMasonry() {
 	
 	var maxHeight = Math.max.apply(null, heights);
 	
-	$('.masonry').height(divHeight+maxHeight);
-	console.log(divHeight+maxHeight);
+	$('.masonry').height(divHeight+(maxHeight/3));
  
  if($(window).width() > 768) {
  	 $('.masonry').css({
