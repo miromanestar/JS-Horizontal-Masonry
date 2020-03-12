@@ -17,8 +17,15 @@ function doMasonry() {
 	$('.masonry-div').attr("style", "");
 
 	var divHeight = $('.masonry').outerHeight();
-	$('.masonry').height(divHeight+600);
-	console.log(divHeight);
+	
+	var heights = $('.masonry-div').map(function() {
+		return $(this).height();
+	}).get();
+	
+	var maxHeight = Math.max.apply(null, heights);
+	
+	$('.masonry').height(divHeight+maxHeight);
+	console.log(divHeight+maxHeight);
  
  if($(window).width() > 768) {
  	 $('.masonry').css({
